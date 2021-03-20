@@ -1,0 +1,43 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-shadow: inherit;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, rgba(255, 161, 127, 0.342), rgba(0, 34, 62, 0.432)),
+        url(./csharp.svg);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h5{
+    font-size: 100%;
+}
+.size-of-card{
+    /* min-height: 10em; */
+}
+.file-info a {
+    margin: 0 10px;
+}
+
+.iconPos i {
+    position: relative;
+    top: 0px;
+}
+.logo{
+    font-size: 14px;
+    position: relative;
+    top: -8px
+}
+
+.title-anchor{
+    display:inline-flex !important
+}
+
+@media only screen and (max-width: 376px){
+    a{
+        display: flex !important;
+    }
+}

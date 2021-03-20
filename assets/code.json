@@ -1,0 +1,74 @@
+[
+    {
+        "data": {
+            "statement": "Display first n Natural no. except user-input & its Sum - dynamicaly.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/code/blob/master/assets/source/programOne.md",
+            "details": {}
+        }
+    },
+    {
+        "data": {
+            "statement": "Swap two numbers without using third variable.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp",
+            "details": {}
+        }
+    },
+    {
+        "data": {
+            "statement": "Count the number of UserInput in list of provided numbersList.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp",
+            "details": {}
+        }
+    },
+    {
+        "data": {
+            "statement": "Get the number & print the reverse of the number.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp",
+            "details": {}
+        }
+    },
+    {
+        "data": {
+            "statement": "Get the String & Print the Reverse of a given String",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp",
+            "details": {}
+        }
+    },
+    {
+        "data": {
+            "statement": "Generate (min, max) range random numbers.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp",
+            "details": {}
+        }
+    },
+    {
+        "data": {
+            "statement": "Capture the Student marks and print the second highest student marks. Using object-oriented programming.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp",
+            "details": {}
+        }
+    },
+    {
+        "data": {
+            "statement": "Convert date time from one Time zone to other time zone.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp",
+            "details": {}
+        }
+    },
+    {
+        "data": {
+            "statement": "Any Enum with 5 members and if we print all members the output should be 0,5,6,10,11.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp",
+            "details": {}
+        }
+    }
+]
