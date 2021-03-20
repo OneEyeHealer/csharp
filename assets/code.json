@@ -11,7 +11,7 @@
         "data": {
             "statement": "Swap two numbers without using third variable.",
             "p": "",
-            "url": "https://github.com/OneEyeHealer/csharp",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/swapping.md",
             "details": {}
         }
     },
@@ -19,7 +19,7 @@
         "data": {
             "statement": "Count the number of UserInput in list of provided numbersList.",
             "p": "",
-            "url": "https://github.com/OneEyeHealer/csharp",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/countInputOccurrence.md",
             "details": {}
         }
     },
@@ -27,7 +27,7 @@
         "data": {
             "statement": "Get the number & print the reverse of the number.",
             "p": "",
-            "url": "https://github.com/OneEyeHealer/csharp",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/reverseNumber.md",
             "details": {}
         }
     },
@@ -35,7 +35,7 @@
         "data": {
             "statement": "Get the String & Print the Reverse of a given String",
             "p": "",
-            "url": "https://github.com/OneEyeHealer/csharp",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/reverseString.md",
             "details": {}
         }
     },
@@ -43,7 +43,7 @@
         "data": {
             "statement": "Generate (min, max) range random numbers.",
             "p": "",
-            "url": "https://github.com/OneEyeHealer/csharp",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/generateRandomNumber.md",
             "details": {}
         }
     },
@@ -51,7 +51,7 @@
         "data": {
             "statement": "Capture the Student marks and print the second highest student marks. Using object-oriented programming.",
             "p": "",
-            "url": "https://github.com/OneEyeHealer/csharp",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/secondLargestNum.md",
             "details": {}
         }
     },
@@ -59,7 +59,7 @@
         "data": {
             "statement": "Convert date time from one Time zone to other time zone.",
             "p": "",
-            "url": "https://github.com/OneEyeHealer/csharp",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/timeZoneConvertion.md",
             "details": {}
         }
     },
@@ -67,7 +67,7 @@
         "data": {
             "statement": "Any Enum with 5 members and if we print all members the output should be 0,5,6,10,11.",
             "p": "",
-            "url": "https://github.com/OneEyeHealer/csharp",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/animeMoviesEnum.md",
             "details": {}
         }
     }
