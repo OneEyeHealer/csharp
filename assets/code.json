@@ -1,10 +1,22 @@
 [
     {
         "data": {
+            "statement": "Add a NuGet package (Humanizer) by using the .NET Core tool.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/humanizer.md",
+            "details": {
+                "SubmitDate": "March 23, 2021"
+            }
+        }
+    },
+    {
+        "data": {
             "statement": "Display first n Natural no. except user-input & its Sum - dynamicaly.",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/naturalNoSum.md",
-            "details": {}
+            "details": {
+                "SubmitDate": "March 21, 2021"
+            }
         }
     },
     {
@@ -12,7 +24,9 @@
             "statement": "Swap two numbers without using third variable.",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/swapping.md",
-            "details": {}
+            "details": {
+                "SubmitDate": "March 21, 2021"
+            }
         }
     },
     {
@@ -20,7 +34,9 @@
             "statement": "Count the number of UserInput in list of provided numbersList.",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/countInputOccurrence.md",
-            "details": {}
+            "details": {
+                "SubmitDate": "March 21, 2021"
+            }
         }
     },
     {
@@ -28,7 +44,9 @@
             "statement": "Get the number & print the reverse of the number.",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/reverseNumber.md",
-            "details": {}
+            "details": {
+                "SubmitDate": "March 21, 2021"
+            }
         }
     },
     {
@@ -36,7 +54,9 @@
             "statement": "Get the String & Print the Reverse of a given String",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/reverseString.md",
-            "details": {}
+            "details": {
+                "SubmitDate": "March 21, 2021"
+            }
         }
     },
     {
@@ -44,7 +64,9 @@
             "statement": "Generate (min, max) range random numbers.",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/generateRandomNumber.md",
-            "details": {}
+            "details": {
+                "SubmitDate": "March 21, 2021"
+            }
         }
     },
     {
@@ -52,7 +74,9 @@
             "statement": "Capture the Student marks and print the second highest student marks. Using object-oriented programming.",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/secondLargestNum.md",
-            "details": {}
+            "details": {
+                "SubmitDate": "March 21, 2021"
+            }
         }
     },
     {
@@ -60,7 +84,9 @@
             "statement": "Convert date time from one Time zone to other time zone.",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/timeZoneConvertion.md",
-            "details": {}
+            "details": {
+                "SubmitDate": "March 21, 2021"
+            }
         }
     },
     {
@@ -68,7 +94,9 @@
             "statement": "Any Enum with 5 members and if we print all members the output should be 0,5,6,10,11.",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/animeMoviesEnum.md",
-            "details": {}
+            "details": {
+                "SubmitDate": "March 21, 2021"
+            }
         }
     }
 ]

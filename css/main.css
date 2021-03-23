@@ -12,11 +12,17 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+a{
+    text-decoration: none !important;
+}
+a:visited{
+    color: #00ff00 !important;
+}
 h5{
     font-size: 100%;
 }
 .size-of-card{
-    /* min-height: 10em; */
+    min-height: 140px;
 }
 .file-info a {
     margin: 0 10px;
@@ -29,9 +35,15 @@ h5{
 .logo{
     font-size: 14px;
     position: relative;
-    top: -8px
+    top: -8px;
 }
-
+.main-logo{
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+.main-logo:visited{
+    color: #000 !important;
+}
 .title-anchor{
     display:inline-flex !important
 }

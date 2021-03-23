@@ -53,15 +53,16 @@ function appendData(data) {
             let icon = "";
             //   classes += key === "github" ? "text-secondary" : "text-success";
             //  text-colors
-            if (key === "Github") classes += "text-secondary";
+            if (key === "SubmitDate") classes += "text-secondary";
             else if (key === "Download") classes += "text-success";
             else classes += "text-info";
+
             // icons
-            if (key === "Github") icon += `<i class="fab fa-github" aria-hidden="true"></i>`;
+            if (key === "SubmitDate") icon += `<i class="far fa-clock" aria-hidden="true"></i>`;
             else if (key === "Download") icon += `<i class="fas fa-file-download"; aria-hidden="true"></i>`;
-            else icon += `<i class="fab fa-readme"></i>`;
+            // else icon += `<i class="fab fa-readme"></i>`;
             //   icon +=
-            //     key === "github" ?
+            //     key === "SubmitDate" ?
             //     `<i class="fab fa-github" aria-hidden="true"></i>` :
             //     `<i class="fas fa-code"; aria-hidden="true"></i>`;
             var links = document.createElement("a");
@@ -70,7 +71,8 @@ function appendData(data) {
             links.setAttribute("target", "_blank");
             links.classList.add(classes);
             span.classList.add("iconPos");
-            span.innerHTML = icon + " " + key;
+            oneLineCode = `${icon} <b>  ${key}: </b>${value}`
+            span.innerHTML = oneLineCode;
             card_body.append(file_info);
             file_info.appendChild(links);
             links.appendChild(span);
