@@ -1,4 +1,4 @@
-## <b>Title</b>: Write a program to count the number of userInput in list of provided numbers.
+## *Title*: Write a program to count the number of userInput in list of provided numbers.
 
 ```C#
 class Program{
@@ -25,7 +25,10 @@ class Program{
     
         private static int[] listArray(String[] list, int size){
             int[] intList = new int[size];
-            for(int i = 0; i < size; i++) intList[i] = int.Parse(list[i]);
+            for(int i = 0; i < size; i++) {  // updated March 23, 2021
+                try{ intList[i] = int.Parse(list[i]); } 
+                catch(Exception ex){ Console.WriteLine(ex.Message); }
+            }
             return intList;
         }
 

@@ -6,25 +6,31 @@ class Program{
         static void Main(string[] args){
             // Write a program to capture the Student marks and print the second highest student marks. Using object-oriented programming.
             Console.WriteLine("Title: Write a program to capture the Student marks and print the second highest student marks. Using object-oriented programming");
+            try{
+                //input
+                Console.Write("How many Student taken the test: ");
+                int size = Convert.ToInt32(Console.ReadLine());
 
-            //input
-            Console.Write("How many Student taken the test: ");
-            int size = Convert.ToInt32(Console.ReadLine());
+                // input for marks
+                Console.Write("Enter List of Students Marks: ");
+                int[] studentMarks = marksArrayList(Console.ReadLine().Split(" "), size);
+                
+                // calling the methods
+                int result = secondLargest(studentMarks, size);
+                if(result == 0) Console.WriteLine("No Second Largest Element is Present");
+                Console.WriteLine($"Result: {result}");
 
-            // input for start and end
-            Console.Write("Enter min and max Value: ");
-            int[] studentMarks = marksArrayList(Console.ReadLine().Split(" "), size);
+            } catch(Exception e){Console.WriteLine(e.Message);}
 
-            // calling the methods
-            int result = secondLargest(studentMarks, size);
-            if(result == 0) Console.WriteLine("No Second Largest Element is Present");
-            Console.WriteLine($"Result: {result}");
         }
 
         private static int[] marksArrayList(string[] marks, int size){
             int[] marksArray = new int[size];
-            for(int i=0; i< size; i++) marksArray[i] = int.Parse(marks[i]);
-
+            for(int i=0; i< size; i++){
+                try{
+                    marksArray[i] = int.Parse(marks[i]);
+                } catch(Exception e){Console.WriteLine(e.Message);}
+            }
             return marksArray;
         }
 

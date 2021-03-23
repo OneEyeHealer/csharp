@@ -6,14 +6,16 @@ class Program{
         static void Main(string[] args){
             // Write a program to get the number and print the revers of the number .
             Console.WriteLine("Title: Write a program to get the number and print the revers of the number");
+            try{
+                //input
+                Console.Write("Enter Number: ");
+                int number = Convert.ToInt32(Console.ReadLine());
 
-            //input
-            Console.Write("Enter Number: ");
-            int number = Convert.ToInt32(Console.ReadLine());
+                // calling the methods
+                int result = reverseNumber(number);
+                Console.Write($"Result: {result}");
 
-            // calling the methods
-            int result = reverseNumber(number);
-            Console.Write($"Result: {result}");
+            } catch (Exception e) {Console.WriteLine(e.Message);}
         }
     
         private static int reverseNumber(int input){

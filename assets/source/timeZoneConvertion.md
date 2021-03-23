@@ -18,11 +18,15 @@ class Program{
             DateTime currentTime = DateTime.Now;
             try{
                 Console.WriteLine(TimeZoneInfo.ConvertTimeBySystemTimeZoneId(currentTime, TimeZoneInfo.Local.Id, $"{country} Standard Time"));
-            } catch(TimeZoneNotFoundException){
-                Console.WriteLine($"'{country}' Standard Time zone Does't exit in Registry.");
-            }catch(InvalidTimeZoneException){
-                Console.WriteLine($"'{country}' Standard Time zone Data Corrupted in Registry.");
+            }catch(Exception e){ // gerneral approach
+                Console.WriteLine(e.Message);
             }
+            // or specific approach
+            //  catch(TimeZoneNotFoundException){
+            //     Console.WriteLine($"'{country}' Standard Time zone Does't exit in Registry.");
+            // }catch(InvalidTimeZoneException){
+            //     Console.WriteLine($"'{country}' Standard Time zone Data Corrupted in Registry.");
+            // }
         }
 
     }
