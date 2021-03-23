@@ -92,9 +92,11 @@ dotnet add package <package-name> --version <version number/range>
 
 ##### The `dotnet list package --outdated` command lists outdated packages.
 ###### Output:
->Top-level Package      Requested   Resolved   Latest
-> Humanizer            2.7.*       2.7.9      2.8.26
+| Top-level Package  | Requested  | Resolved | Latest |
+| :----------------- |:----------:| :-------:| ------:|
+|      Humanizer     |    2.7.*   |   2.7.9  | 2.8.26 |
 
-> `Requested`: The version or version range that you've specified.
-> `Resolved`: The actual version that has been downloaded for the project that matches the specified version.
-> `Latest`: The latest version available for update from NuGet.
+
+> `Requested`: The version or version range that you've specified.</br>
+> `Resolved`: The actual version that has been downloaded for the project that matches the specified version.</br>
+> `Latest`: The latest version available for update from NuGet.</br>
