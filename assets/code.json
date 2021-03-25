@@ -1,6 +1,16 @@
 [
     {
         "data": {
+            "statement": "Inheritance Concepts: Single, Multiple, Multilevel, Hierarchical.",
+            "p": "",
+            "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/inheritanceConcept.md",
+            "details": {
+                "SubmitDate": "March 25, 2021"
+            }
+        }
+    },
+    {
+        "data": {
             "statement": "Add a NuGet package (Humanizer) by using the .NET Core tool.",
             "p": "",
             "url": "https://github.com/OneEyeHealer/csharp/blob/master/assets/source/humanizer.md",
