@@ -1,22 +1,32 @@
-## <b>Title</b>: Swap two numbers without using third variable.
+## Title: Swap two numbers without using third variable.
 
 ```c#
 class Program{
         static void Main(string[] args){
             // Swap two numbers without using third variable
             Console.WriteLine("Title: Swap two numbers without using third variable");
-            try{
-                Console.Write("Num 1: ");
-                int numOne = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Num 2: ");
-                int numTwo = Convert.ToInt32(Console.ReadLine());
+            bool inValidInput = false;
+            while(!inValidInput){
+                try{
+                        Console.Write("Num 1: ");
+                        int numOne = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Num 2: ");
+                        int numTwo = Convert.ToInt32(Console.ReadLine());
+                        // calling method
+                        if (checkDataType(numOne) && checkDataType(numTwo)){
+                            swapingOfNumbers(numOne, numTwo);
+                            inValidInput = true;
+                        }
 
-                // calling method
-                swapingOfNumbers(numOne, numTwo);
-
-            }catch(Exception e){
-                Console.WriteLine(e.Message);
+                }catch(Exception e){
+                    Console.WriteLine($"Error Msg: {e.Message}");
+                }
             }
+        }
+
+        private static bool checkDataType<T>(T input){
+            if (input.GetType() == typeof(int)) return true;
+            return false;
         }
 
         private static void swapingOfNumbers(int numOne, int numTwo){
