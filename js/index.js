@@ -9,10 +9,35 @@ fetch("./assets/code.json")
         console.log("error: " + err);
     });
 
+
 function appendData(data) {
+    var searchContainer = document.getElementById("searchBox");
+    var searchDiv = document.createElement("div");
+    var searchInput = document.createElement("input");
+    var searchButton = document.createElement("button");
+    
+    searchDiv.classList.add("input-group", "mb-3");
+    searchInput.classList.add("form-control"); 
+    searchButton.classList.add("btn", "btn-primary"); 
+    
+    searchInput.type = "text";
+    searchInput.placeholder = "Search..";
+    searchInput.id = "inputValue";
+    searchInput.value = "";
+    searchButton.textContent = "Search";
+    searchButton.onclick = function(){
+        var searchValue = document.getElementById("inputValue").value;
+        console.log(searchValue);
+    };
+
+    searchContainer.append(searchDiv);
+    searchDiv.append(searchInput);
+    searchDiv.append(searchButton);
+    
     var mainContainer = document.getElementById("csharpCode");
     for (var i = 0; i < data.length; i++) {
-        // crating dom elements
+        
+        // creating dom elements
         var div = document.createElement("div");
         var card = document.createElement("div");
         var image = document.createElement("img");
@@ -21,6 +46,7 @@ function appendData(data) {
         var anchor = document.createElement("a");
         var para = document.createElement("p");
         var file_info = document.createElement("div");
+        var span = document.createElement("span");
 
         // styling
         div.classList.add("col", "mb-4");
@@ -31,11 +57,15 @@ function appendData(data) {
         heading.classList.add("card-title", "d-inline-block");
         para.classList.add("card-text");
         file_info.classList.add("file-info", "text-center");
+        span.classList.add("badge", "span-box", "badge-danger");
+
         // fetching data
         heading.innerHTML = data[i].data.statement;
+        span.innerHTML = data[i].data.bookMark;
         // para.innerHTML = data[i].data.p;
+        
         //   seting values
-        image.src = './css/programming-code-signs.svg';
+        image.src = './css/coding.svg';
         image.setAttribute("width", "25");
         anchor.href = data[i].data.url;
 
@@ -48,6 +78,9 @@ function appendData(data) {
         anchor.appendChild(image);
         anchor.append(heading);
         // card_body.appendChild(para);
+        card_body.appendChild(span);
+
+        // icons loop
         for (let [key, value] of Object.entries(data[i].data.details)) {
             let classes = "";
             let icon = "";
@@ -67,7 +100,7 @@ function appendData(data) {
             //     `<i class="fas fa-code"; aria-hidden="true"></i>`;
             var links = document.createElement("a");
             var span = document.createElement("span");
-            links.href = value;
+            // links.href = value;
             links.setAttribute("target", "_blank");
             links.classList.add(classes);
             span.classList.add("iconPos");
